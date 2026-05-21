@@ -1,4 +1,5 @@
 package org.example;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,6 +15,11 @@ public class Main {
         int edad = sc.nextInt();
 
         System.out.println("Hola " + nombre + " tienes " + edad + " años");
+
+
+
+
+
     }
 
 }
