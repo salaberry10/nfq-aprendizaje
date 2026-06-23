@@ -7,13 +7,13 @@ public class PruebaProducto {
         Producto nintendo = new Producto("Switch", 350, 3);
 
         ps5.mostrarInfo();
-        Nintendo.mostrarInfo();
+        nintendo.mostrarInfo();
 
         ps5.vender(9);
         ps5.vender(2);
 
-        nintendointendo.reabastecer(3);
-        nintendointendo.reabastecer(-2);
+        nintendo.reabastecer(3);
+        nintendo.reabastecer(-2);
 
         ps5.mostrarInfo();
         nintendo.mostrarInfo();
